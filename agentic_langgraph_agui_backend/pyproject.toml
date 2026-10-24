@@ -1,0 +1,23 @@
+[project]
+name = "agentic-ai-framework-langgraph"
+version = "0.1.0"
+description = "Agentic AI Framework LangGraph"
+readme = "README.md"
+requires-python = ">=3.11" 
+authors = [
+    { name = "Petros-Pavlos Ypsilantis", email = "petrosypsilantis203@gmail.com" },
+]
+
+dependencies = [
+    "structlog>=25.4.0"
+]
+
+
+[tool.uv]
+package=true
+
+[tool.setuptools]
+packages = ["app"]
+
+[project.scripts]
+start = "app.main:start"
