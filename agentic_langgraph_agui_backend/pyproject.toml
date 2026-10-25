@@ -9,7 +9,37 @@ authors = [
 ]
 
 dependencies = [
-    "structlog>=25.4.0"
+    "structlog>=25.4.0",
+    "a2a-sdk==0.3.20",
+    "aioboto3>=15.0.0",
+    "langchain==1.0.1",
+    "fastapi",
+    "llama-index==0.12.46",
+    "langchain-openai==1.0.1",
+    "langgraph==1.0.1",
+    "neo4j>=5.28.1",
+    "pydantic",
+    "pydantic-settings>=2.10.1",
+    "requests",
+    "uvicorn[standard]",
+    "openinference-instrumentation-langchain>=0.1.56",
+    "langgraph-checkpoint-postgres>=2.0.21",
+    "redis>=7.1.0",
+    "psycopg[binary,pool]==3.3.2",
+    "psycopg2-binary==2.9.12",
+    "ag-ui-langgraph==0.0.25",
+    "arize-phoenix==13.4.0",
+    "ipython>=9.10.0",
+    "ag-ui-protocol==0.1.13",
+    "pyjwt>=2.10.1",
+    "cryptography>=45.0.5",
+    "cachetools>=6.2.4",
+    "httpx>=0.28.1",
+    "opentelemetry-instrumentation-fastapi>=0.44b0",
+    "opentelemetry-instrumentation-httpx>=0.44b0",
+    "typer>=0.9.0",
+    "alembic>=1.13.0",
+    "sqlalchemy>=2.0.0",
 ]
 
 
