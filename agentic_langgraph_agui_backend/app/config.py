@@ -8,7 +8,7 @@ class Settings:
 
 
     # Embedding Model
-    embwedding_model: str = "text-embedding-ada-002",
+    embedding_model: str = "text-embedding-ada-002",
 
 
 settings = Settings()
