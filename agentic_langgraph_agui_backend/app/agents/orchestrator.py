@@ -6,7 +6,7 @@ from agent_registry import AgentRegistry
 from langchain_core.runnables.config import RunnableConfig
 from llm import ChatLLM
 
-from shemas import AgentState, AgentTools
+from shemas import AgentState
 
 
 logger = structlog.get_logger()
